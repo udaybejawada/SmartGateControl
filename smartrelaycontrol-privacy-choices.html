@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SmartRelayControl – Privacy Choices</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
+      line-height: 1.6;
+      margin: 0;
+    }
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 3rem;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.25rem;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.4rem;
+    }
+    p {
+      margin: 0.3rem 0;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .muted {
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>SmartRelayControl – Privacy Choices</h1>
+    <p class="muted">Last updated: <span id="date"></span></p>
+
+    <p>
+      SmartRelayControl is designed so that we do not need to collect or store
+      your personal data. Because of this, your privacy choices are simple and
+      under your direct control.
+    </p>
+
+    <h2>1. Data Collection</h2>
+    <p>
+      We do not collect personal identifiers, contact information, precise
+      location, analytics, or advertising data. Bluetooth communication is used
+      only to talk to your relay module and is handled on your device.
+    </p>
+
+    <h2>2. Opt-out of Data Sharing or “Sale”</h2>
+    <p>
+      We do not sell, share, or transfer your data to third parties. There is no
+      advertising SDK and no data broker involved. Therefore, there is nothing
+      for you to opt out of with respect to data sale or sharing.
+    </p>
+
+    <h2>3. Your Device Settings</h2>
+    <p>You remain in control of the following choices on your device:</p>
+    <ul>
+      <li>
+        You can disable Bluetooth at any time in iOS Settings if you no longer
+        want the app to communicate with your relay.
+      </li>
+      <li>
+        You can uninstall SmartRelayControl to remove the app and its local
+        settings from your device.
+      </li>
+    </ul>
+
+    <h2>4. Access, Correction, or Deletion Requests</h2>
+    <p>
+      Since we do not keep personal data on our servers, there is nothing for us
+      to access, correct, or delete on your behalf. If you have any questions
+      about this or want written confirmation, you can contact us at:
+    </p>
+    <p>
+      Email: <a href="mailto:udaybejawada@hotmail.com">udaybejawada@hotmail.com</a>
+    </p>
+
+    <p class="muted" style="margin-top:2rem;">
+      For more details about how the app works, please read the
+      <a href="smartrelaycontrol-privacy-policy.html">SmartRelayControl Privacy Policy</a>.
+    </p>
+  </main>
+
+  <script>
+    document.getElementById("date").textContent =
+      new Date().toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      });
+  </script>
+</body>
+</html>
